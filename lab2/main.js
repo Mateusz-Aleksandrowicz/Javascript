@@ -40,3 +40,7 @@ function showAutoSlides(n) {
     slides[slideIndex-1].style.display = "block";
     setTimeout(showAutoSlides, 3000); 
   }
+
+  let container2 = document.querySelector("slideshow-container");
+
+  container2.innerHTML()
